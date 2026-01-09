@@ -1,5 +1,11 @@
-# Datacamp3
+# Datacamp [Advances level]
+A platform to practice Python, SQL, AI, Theory etc...
 
-[Advanced] practice with Data Camp
+https://app.datacamp.com/learn/courses/
+
+#### *Try only free area.*
+---
+#### Exercise　　　
 
 ---
+
