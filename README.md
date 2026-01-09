@@ -7,5 +7,6 @@ https://app.datacamp.com/learn/courses/
 ---
 #### Exercise　　　
 
----
+### Python
+* AI Agents with Hugging Face smolagents
 
