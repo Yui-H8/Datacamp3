@@ -134,3 +134,6 @@ Code agents use JSON to process numbers more efficiently than function-calling a
 Code agents are always more accurate at calculations than function-calling agents
 ```
 *Exactly! Code agents write code behind the scenes, combining logic, calculations, and analysis into one workflow.*
+
+### Writing Code Through Prompts: Compound Interest
+
