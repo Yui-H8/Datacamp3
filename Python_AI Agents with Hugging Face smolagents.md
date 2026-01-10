@@ -142,3 +142,6 @@ You're setting aside a fixed amount of money each month into a savings account t
 Rather than calculating compound interest manually or in a spreadsheet, you decide to use an agent to write the code for you and answer your queries.
 
 Note: For all exercises in this course, a model variable has already been initialized for you. It provides access to an OpenAI model behind the scenes. No setup or API keys required.
+* Import the CodeAgent class from the smolagents library.
+* Create an instance of CodeAgent, passing it an empty list for tools.
+* Call the .run() method on your agent and pass in your task string.
