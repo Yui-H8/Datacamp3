@@ -135,5 +135,10 @@ Code agents are always more accurate at calculations than function-calling agent
 ```
 *Exactly! Code agents write code behind the scenes, combining logic, calculations, and analysis into one workflow.*
 
+---
 ### Writing Code Through Prompts: Compound Interest
+You're setting aside a fixed amount of money each month into a savings account that earns interest.
 
+Rather than calculating compound interest manually or in a spreadsheet, you decide to use an agent to write the code for you and answer your queries.
+
+Note: For all exercises in this course, a model variable has already been initialized for you. It provides access to an OpenAI model behind the scenes. No setup or API keys required.
