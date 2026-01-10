@@ -17,3 +17,17 @@ https://campus.datacamp.com/courses/ai-agents-with-hugging-face-smolagents/
 
 ---
 ### Let the Agent Do the Math: Expense Insights
+You've been manually tracking your monthly expenses in a spreadsheet, but analyzing spending patterns takes forever.
+
+Your friend recommended trying smolagents to automate the analysis. Your weekly expense data for the past month is given in the following expense_data dictionary:
+```
+expense_data = {
+    "groceries": [120, 95, 110, 140],
+    "utilities": [85, 92, 78, 88],
+    "entertainment": [45, 0, 75, 30],
+    "transportation": [60, 55, 70, 65]
+}
+```
+Let's run an agent that can help you understand your spending habits and create a budget plan.
+
+Note: The agent and expense_data dictionary have been already initialized for you.
