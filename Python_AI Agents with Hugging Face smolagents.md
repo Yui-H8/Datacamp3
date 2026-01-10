@@ -120,3 +120,10 @@ Suggested budget for next month: $511.50
 *Great job running your first coding agent! You didn't have to create any tools for your agent here, either; the LLM reasoned and wrote its own code to analyze the data as you requested.*
 
 ### Wait, You Didn't Write Any Functions?
+After watching an agent analyze your expenses, you're fascinated by how it calculated totals, identified patterns, and created budget recommendations all in one go.
+
+Later, your roommate asks: "How was that possible without you giving it any functions directly?"
+
+You realize it's because the agent wasn't just calling functions; it was writing and running code.
+
+What's the main difference between how a code agent and a function-calling agent would solve a task?
