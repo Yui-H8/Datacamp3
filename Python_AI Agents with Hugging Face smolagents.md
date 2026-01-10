@@ -31,3 +31,5 @@ expense_data = {
 Let's run an agent that can help you understand your spending habits and create a budget plan.
 
 Note: The agent and expense_data dictionary have been already initialized for you.
+* Run the provided code to see smolagents analyze your expense data.
+* Observe the output and how the agent writes Python code to find spending patterns.
