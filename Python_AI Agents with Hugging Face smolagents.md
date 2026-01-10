@@ -118,3 +118,5 @@ Highest expense area: Groceries ($465)
 Suggested budget for next month: $511.50
 ```
 *Great job running your first coding agent! You didn't have to create any tools for your agent here, either; the LLM reasoned and wrote its own code to analyze the data as you requested.*
+
+### Wait, You Didn't Write Any Functions?
