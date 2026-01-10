@@ -127,3 +127,9 @@ Later, your roommate asks: "How was that possible without you giving it any func
 You realize it's because the agent wasn't just calling functions; it was writing and running code.
 
 What's the main difference between how a code agent and a function-calling agent would solve a task?
+```
+Code agents can only work with financial data, while function-calling agents work with any data type
+Code agents write scripts to handle calculations, while function-calling agents make separate calls to predefined functions
+Code agents use JSON to process numbers more efficiently than function-calling agents
+Code agents are always more accurate at calculations than function-calling agents
+```
