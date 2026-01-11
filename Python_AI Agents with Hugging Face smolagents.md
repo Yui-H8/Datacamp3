@@ -194,3 +194,4 @@ Final answer: 15528.23
 [Step 2: Duration 2.49 seconds| Input tokens: 4,243 | Output tokens: 339]
 15528.23
 ```
+*Nice work! With a code agent up and running, it's time to integrate some tools to allow it to interact with the external world.*
