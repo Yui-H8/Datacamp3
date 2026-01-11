@@ -10,3 +10,6 @@ To help her make a smart decision, you decide to build a code agent that can:
 * You'll give your agent web search powers using the built-in VisitWebpageTool.
 
 Note: The model has been initialized for you. The CodeAgent class has been imported as well.
+* Import the VisitWebpageTool from the smolagents library.
+* Create the agent using the provided model and a tools list that includes an instance of VisitWebpageTool().
+* Run the agent using the .run() method and pass in the task.
