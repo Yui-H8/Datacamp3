@@ -902,3 +902,4 @@ Out: None
 Final answer: {'initial_rate': 1.345, 'final_rate': 1.34031, 'high': 1.345, 'low': 1.338, 'average': 1.3412}
 [Step 6: Duration 13.35 seconds| Input tokens: 44,967 | Output tokens: 964]
 ```
+*Nice! Your agent now has the ability to search for and retrieve information from the webpages. This ability on its own enables so many interesting use cases, and there are several other built-in tools that ship with smolagents.*
