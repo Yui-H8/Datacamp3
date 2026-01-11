@@ -145,3 +145,9 @@ Note: For all exercises in this course, a model variable has already been initia
 * Import the CodeAgent class from the smolagents library.
 * Create an instance of CodeAgent, passing it an empty list for tools.
 * Call the .run() method on your agent and pass in your task string.
+```
+Hint
+The class you need to import is called CodeAgent.
+Set tools=[] when creating the agent; you're not using any tools yet.
+To run the agent, use .run(...) and pass your task as a string.
+```
