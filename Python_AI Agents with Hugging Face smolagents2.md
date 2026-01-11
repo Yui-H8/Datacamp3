@@ -13,3 +13,9 @@ Note: The model has been initialized for you. The CodeAgent class has been impor
 * Import the VisitWebpageTool from the smolagents library.
 * Create the agent using the provided model and a tools list that includes an instance of VisitWebpageTool().
 * Run the agent using the .run() method and pass in the task.
+```
+Hint
+The tool you need is called VisitWebpageTool. It comes from the smolagents library.
+Make sure to instantiate the tool (VisitWebpageTool()) and include it inside a list.
+To run the agent, use .run(...) with your task string.
+```
