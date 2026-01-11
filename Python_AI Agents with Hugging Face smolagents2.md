@@ -19,3 +19,18 @@ The tool you need is called VisitWebpageTool. It comes from the smolagents libra
 Make sure to instantiate the tool (VisitWebpageTool()) and include it inside a list.
 To run the agent, use .run(...) with your task string.
 ```
+```python
+# Import the VisitWebpageTool class
+from smolagents import VisitWebpageTool
+
+# Create agent with web search capabilities
+agent = CodeAgent(
+    tools=[VisitWebpageTool()],
+    model=model
+)
+
+task = "Find GBP to USD exchange rates and summarize how this rate has changed over the past 7 days. A good source is usually Wise."
+
+# Run the agent with the task
+result = agent.run(task)
+```
