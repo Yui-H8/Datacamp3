@@ -71,3 +71,4 @@ def lookup_orders(table_id: str) -> list[str]:
     # Return the table orders
     return orders
 ```
+*Great job! Being able to provide agents with source-of-truth information essentially allows you to have a conversation with your database, API, or local file.*
