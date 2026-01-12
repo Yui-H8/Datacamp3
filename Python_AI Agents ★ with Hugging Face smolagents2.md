@@ -47,3 +47,6 @@ At AgentsCafé, all drink orders are saved in a file called orders.csv, which in
 Instead of manually scrolling through the file every time a customer asks for their bill, you’ll build a tool that looks up all current orders for a specific table.
 
 Note: tool and pandas have been imported for you.
+* Use table_id as the function parameter so the agent knows which table's orders to retrieve.
+* Read the orders.csv file, which contains all drink orders.
+* Return the list of drink orders for the table.
