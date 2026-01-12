@@ -39,3 +39,4 @@ def generate_order_id(table_id: str, drink_name: str) -> str:
     # Return the order ID
     return order_id
 ```
+*Perfect! Being able to define your own custom tools makes the capabilities of AI agents virtually limitless!*
