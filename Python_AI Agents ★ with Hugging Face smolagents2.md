@@ -12,7 +12,10 @@ Note: The datetime library has been already imported.
 * Import the tool decorator from the smolagents library.
 * Use the @tool decorator to register your generate_order_id function as a tool.
 * Return the formatted order ID string that combines the table ID, drink name, and current timestamp.
-
+```
+Add @tool directly above your function to register it.
+Return the order_id string.
+```
 ```python
 # Import the tool decorator
 from smolagents import decorator
