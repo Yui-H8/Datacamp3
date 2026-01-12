@@ -42,3 +42,8 @@ def generate_order_id(table_id: str, drink_name: str) -> str:
 *Perfect! Being able to define your own custom tools makes the capabilities of AI agents virtually limitless!*
 
 ### Check, Please! Giving Agents Access to Data
+At AgentsCafé, all drink orders are saved in a file called orders.csv, which includes the columns: table_id, drink_name, and size.
+
+Instead of manually scrolling through the file every time a customer asks for their bill, you’ll build a tool that looks up all current orders for a specific table.
+
+Note: tool and pandas have been imported for you.
