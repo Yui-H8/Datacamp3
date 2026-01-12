@@ -18,7 +18,7 @@ Return the order_id string.
 ```
 ```python
 # Import the tool decorator
-from smolagents import decorator
+from smolagents import tool
 
 # Create a tool with the @tool decorator
 @tool
