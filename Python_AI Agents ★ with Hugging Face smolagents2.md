@@ -9,3 +9,6 @@ Baristas currently hand-write order codes like T5_Latte_20250812_0915, but typos
 To fix this, you'll build a simple tool called generate_order_id that takes a table ID, drink name, and appends a timestamp, ensuring every order code is clear and consistent.
 
 Note: The datetime library has been already imported.
+* Import the tool decorator from the smolagents library.
+* Use the @tool decorator to register your generate_order_id function as a tool.
+* Return the formatted order ID string that combines the table ID, drink name, and current timestamp.
