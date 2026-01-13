@@ -148,3 +148,4 @@ Final answer: {'Latte (Large)': 'T5_Latte (Large)_20260113_1641', 'Espresso (Sin
 [Step 3: Duration 4.01 seconds| Input tokens: 6,762 | Output tokens: 333]
 {'Latte (Large)': 'T5_Latte (Large)_20260113_1641', 'Espresso (Single)': 'T5_Espresso (Single)_20260113_1641', 'Matcha Latte (Small)': 'T5_Matcha Latte (Small)_20260113_1641', 'Flat White (Regular)': 'T5_Flat White (Regular)_20260113_1641'}
 ```
+*Nicely done! You created a multi-tool agent, authorized pandas for safe execution, and ran it on your task. In Chapter 2, we'll learn how to combine two core AI design patterns: agents and RAG!*
