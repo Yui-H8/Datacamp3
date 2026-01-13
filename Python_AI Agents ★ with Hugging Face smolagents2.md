@@ -85,3 +85,9 @@ Note: The model, tools and necessary imports have already been defined for you. 
 * Create a coding agent using your previously defined lookup_orders and generate_order_id tools.
 * Add pandas to the list of authorized imports to ensure the agent can read the CSV.
 * Use the agent's .run() method to process a task that fetches orders for a table and assigns IDs.
+```
+Hint
+Use the tool names exactly as they appear in the code — both were defined earlier using the @tool decorator.
+The tool that looks up orders reads a CSV using pandas, so it must be explicitly authorized.
+To run the agent, use the .run(...) method and pass the task string as its argument.
+```
