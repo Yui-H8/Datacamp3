@@ -74,3 +74,10 @@ def lookup_orders(table_id: str) -> list[str]:
 *Great job! Being able to provide agents with source-of-truth information essentially allows you to have a conversation with your database, API, or local file.*
 
 ### Create a code agent with the lookup_orders and generate_order_id tools
+You've already created two tools for AgentsCafé:
+
+generate_order_id: produces a timestamped ID like T5_Latte_20250812_0915
+lookup_orders: reads orders.csv and returns a list of drinks for that table
+Now let's create an agent that uses those two tools. So, for any table, the agent can fetch its orders and assign a unique ID to each drink.
+
+Note: The model, tools and necessary imports have already been defined for you. A sample orders.csv is uploaded as well.
