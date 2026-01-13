@@ -91,3 +91,20 @@ Use the tool names exactly as they appear in the code — both were defined earl
 The tool that looks up orders reads a CSV using pandas, so it must be explicitly authorized.
 To run the agent, use the .run(...) method and pass the task string as its argument.
 ```
+```python
+# Create a code agent with the lookup_orders and generate_order_id tools
+agent = CodeAgent(
+    tools=[lookup_orders, generate_order_id],
+    model=model,
+    # Authorize pandas import
+    additional_authorized_imports=['pandas']
+)
+
+task = (
+    "For table 5, list their current drink orders and generate a unique order ID for each one."
+)
+
+# Run the agent passing the task
+result = agent.run(task)
+print(result)
+```
