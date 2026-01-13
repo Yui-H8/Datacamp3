@@ -82,3 +82,6 @@ You've already created two tools for AgentsCafé:
 Now let's create an agent that uses those two tools. So, for any table, the agent can fetch its orders and assign a unique ID to each drink.
 
 Note: The model, tools and necessary imports have already been defined for you. A sample orders.csv is uploaded as well.
+* Create a coding agent using your previously defined lookup_orders and generate_order_id tools.
+* Add pandas to the list of authorized imports to ensure the agent can read the CSV.
+* Use the agent's .run() method to process a task that fetches orders for a table and assigns IDs.
